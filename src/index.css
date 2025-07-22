@@ -1,0 +1,20 @@
+.carddiv{
+    display:inline-block;
+    margin-right: 15px;
+    border:1px solid black;
+}
+
+.cardimg{
+    margin: 10px 20px;
+}
+
+.cardname{
+    text-align: center;
+    font-weight: normal;
+    background-color: aqua;
+}
+
+.carddes{
+    text-align: center;
+    background-color: pink;
+}
