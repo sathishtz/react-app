@@ -1,6 +1,6 @@
 .carddiv{
     display:inline-block;
-    margin-right: 15px;
+    margin-right: 5px;
     border:1px solid black;
 }
 
@@ -17,4 +17,26 @@
 .carddes{
     text-align: center;
     background-color: pink;
+}
+
+.btndiv{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top: 10px;
+    background-color: aqua;
+    color: black;
+    padding: 10PX;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.btn:active{
+    background-color: rgba(223, 6, 107, 0.7);
 }
