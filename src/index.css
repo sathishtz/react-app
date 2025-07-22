@@ -30,6 +30,7 @@
     padding: 10PX;
     border-radius: 5px;
     cursor: pointer;
+    transition:0.15s;
 }
 
 .btn:hover{
