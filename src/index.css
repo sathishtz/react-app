@@ -41,3 +41,18 @@
 .btn:active{
     background-color: rgba(223, 6, 107, 0.7);
 }
+
+.studiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.studiv p{
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight:500;
+}

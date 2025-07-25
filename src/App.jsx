@@ -1,5 +1,6 @@
 import Card from "./Card.jsx"
 import Button from "./Button.jsx"
+import Stu from "./Student.jsx"
 function App() {
   
   return(
@@ -9,6 +10,7 @@ function App() {
     <Card/>
     <Card/>
     <Button/>
+    <Stu Name="Sathish" Age={22}/>
     </>
   );
 }
