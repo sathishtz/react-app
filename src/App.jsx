@@ -12,7 +12,7 @@ function App() {
     <Card/>
     <Button/>
     <Stu name="Sathish" age="22" />
-    <User name="kumar" login="22"/>
+    <User name="kumar" login={false}/>
     </>
   );
 }
