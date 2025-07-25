@@ -1,6 +1,7 @@
 import Card from "./Card.jsx"
 import Button from "./Button.jsx"
 import Stu from "./Student.jsx"
+import User from "./Condition.jsx"
 function App() {
   
   return(
@@ -10,7 +11,8 @@ function App() {
     <Card/>
     <Card/>
     <Button/>
-    <Stu Name="Sathish" Age={22}/>
+    <Stu name="Sathish" age="22" />
+    <User name="kumar" login="22"/>
     </>
   );
 }

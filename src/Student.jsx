@@ -1,12 +1,17 @@
+import PropTypes from 'prop-types'
+
 function Stu(props){
     return(
         <div className="studiv">
-            <p>Name:{props.Name}</p>
-            <p>    </p>
-            <p>Age:{props.Age}</p>
+            <p>Name:{props.name}</p>
+            <p>Age:{props.age}</p>
         </div>
     );
-
 }
 
-export default Stu 
+Stu.propTypes={
+    name:PropTypes.string,
+    age:PropTypes.number,
+}
+
+export default  Stu
