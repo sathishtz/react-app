@@ -3,6 +3,7 @@ import Button from "./Button.jsx"
 import Stu from "./Student.jsx"
 import User from "./Condition.jsx"
 import List from "./List.jsx"
+import Hook from "./Hooks.jsx"
 function App() {
   
   return(
@@ -15,6 +16,7 @@ function App() {
     <Stu name="Sathish" age="22" />
     <User name="kumar" login={false}/>
     <List/>
+    <Hook/>
     </>
   );
 }

@@ -1,4 +1,4 @@
-import pic from "./assets/img.jpg"
+import pic from "./assets/img.jpg";
 function Card(){
     return(
         <div className="carddiv">
