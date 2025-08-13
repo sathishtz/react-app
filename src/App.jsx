@@ -14,6 +14,7 @@ function App() {
     <Card/>
     <Button/>
     <Stu name="Sathish" age="22" />
+    <Stu name="Kumar" age="23" />
     <User name="kumar" login={false}/>
     <List/>
     <Hook/>
